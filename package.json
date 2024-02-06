@@ -1,0 +1,46 @@
+{
+  "name": "materializer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdul-Majid10/Materializer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdul-Majid10/Materializer/issues"
+  },
+  "homepage": "https://github.com/Abdul-Majid10/Materializer#readme",
+  "engines": {
+    "node": "18.14.*"
+  },
+  "npm": "9.6.*",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "bcrypt": "^5.1.0",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mailgen": "^2.0.27",
+    "mongoose": "^6.10.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "otp-generator": "^4.0.1",
+    "path": "^0.12.7",
+    "prettier": "^2.8.8",
+    "random-hash": "^4.0.1"
+  }
+}
