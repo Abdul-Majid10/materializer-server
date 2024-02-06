@@ -8,7 +8,7 @@ import dotenv from "dotenv";
 import MediaRouter from "./router/mediaRouter.js";
 import CollectionRouter from "./router/collectionRouter.js";
 import ProjectRouter from "./router/projectRouter.js";
-import ApiRouter from "./router/ApiRouter.js";
+import ApiRouter from "./router/apiRouter.js";
 import ClassesRouter from "./router/cssClassesRouter.js";
 import PageRouter from "./router/pageRouter.js";
 import ComponentRouter from "./router/componentRouter.js";
