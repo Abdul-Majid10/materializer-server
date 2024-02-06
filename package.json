@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "build": "cd client && npm install && npm run build"
+    "build": "npm install"
   },
   "repository": {
     "type": "git",
